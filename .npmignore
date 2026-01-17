@@ -1,0 +1,54 @@
+# Source files (publish compiled only)
+nodes/
+credentials/
+index.ts
+
+# Development files
+*.ts
+!*.d.ts
+tsconfig.json
+.eslintrc.js
+.prettierrc
+gulpfile.js
+
+# Test files
+test/
+*.test.ts
+*.spec.ts
+jest.config.js
+coverage/
+
+# Scripts
+scripts/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies (will be installed)
+node_modules/
+
+# Build artifacts (keep dist/)
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+
+# Documentation source (keep compiled README)
+docs/
